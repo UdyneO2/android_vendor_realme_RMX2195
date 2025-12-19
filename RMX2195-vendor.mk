@@ -491,7 +491,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/odm/lib64/libsnpe_loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpe_loader.so \
     vendor/realme/RMX2195/proprietary/odm/lib64/libsnpeml.so:$(TARGET_COPY_OUT_ODM)/lib64/libsnpeml.so \
     vendor/realme/RMX2195/proprietary/odm/lib64/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_api.so \
-    vendor/realme/RMX2195/proprietary/odm/lib64/libstblur_capture_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_capture_api.so \
     vendor/realme/RMX2195/proprietary/odm/lib64/libstface_fd_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstface_fd_api.so \
     vendor/realme/RMX2195/proprietary/odm/lib64/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib64/libswresample.so \
     vendor/realme/RMX2195/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
@@ -1564,7 +1563,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     CACertService \
-    CneApp \
     IWlanService \
     TimeService \
     QtiTelephonyService \
